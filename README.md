@@ -45,12 +45,6 @@ For separate computers, replace 127.0.0.1 with the listener's IPv4 address on th
 
 The **Stop** button disconnects that instance. Closing the window also stops it.
 
-## Example screenshot
-
-The screenshot below was captured from the running Tkinter app during a three-peer loopback demonstration. Alice is connected to Bob and Charlie, and the log shows text and a received file.
-
-![Alice with Bob and Charlie connected](screenshots/peer_demo.png)
-
 ## How it works
 
     Alice GUI -> Alice P2P node -> TCP socket <-> TCP socket <- Bob P2P node <- Bob GUI
@@ -93,4 +87,3 @@ When running several copies from the same extracted folder, all copies share its
 | requirements.txt | No third-party dependencies |
 | tests/test_p2p.py | Local integration tests |
 | downloads/ | Received files |
-| screenshots/peer_demo.png | Example running-app screenshot |
